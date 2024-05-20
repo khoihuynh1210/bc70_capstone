@@ -5,6 +5,26 @@
     font-size: 20px;
 }
 
+p {
+  margin: 0;
+}
+
+.btn:focus {
+  box-shadow: 0 0 0 0.2rem rgb(46 202 139 / 25%);
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
 /* title */
 
 .title::after,
@@ -43,7 +63,109 @@
   color: #ff6e65;
 }
 
+
+/* header */
+.top-header {
+  background-color: #0d369f;
+  padding: 15px;
+}
+
+.top-header .top-header-list li,
+.top-header .top-header-list2 li {
+  display: inline-block;
+  margin-right: 2em;
+  margin-top: 5px;
+}
+
+.top-header .top-header-list li,
+.top-header .top-header-list a,
+.top-header .top-header-list2 li,
+.top-header .top-header-list2 a {
+  color: white;
+}
+
+.sticky {
+  position: sticky;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 99999;
+  background-color: white;
+}
+
+.navbar-brand p {
+  font-size: 25px !important;
+  font-weight: 500;
+}
+
+.navbarStudios a {
+  color: #5b5b5b;
+}
+
+.navbarStudios .navbar-nav a.active {
+  color: #ff6e65;
+}
+
+.navbarStudios .navbar-brand:hover p {
+  color: #ff6e65;
+  transition: all 0.5s;
+}
+
+.navbarStudios .navbar-brand p,
+.navbarStudios .navbar-brand i {
+  font-size: 36px;
+}
+
+#navbarNavStudiosDropdown .nav-link,
+#navbarNavStudiosDropdown .dropdown-item {
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+#navbarNavStudiosDropdown .nav-item {
+  margin: 0 5px;
+}
+
+#navbarNavStudiosDropdown .nav-item:hover a.nav-link,
+.dropdown-menu a.dropdown-item:hover,
+.top-header-list2 a:hover,
+.top-header-list a:hover {
+  color: #ff6e65;
+  transition: all 0.5s;
+}
+
+#navbarNavStudiosDropdown .nav-item.active p {
+  color: #ff6e65;
+}
+
+.navbarStudios .search-right form.search-box {
+  display: flex;
+  align-items: center;
+}
+
+.navbarStudios .search-right form.search-box input {
+  font-size: 15px;
+  color: #060606;
+  background: transparent;
+  padding: 10px 35px 10px 14px;
+  width: 100%;
+  border-radius: 30px;
+  border: 2px solid #eee;
+  outline: none;
+}
+
+.navbarStudios .search-right .search-btn {
+  position: absolute;
+  color: #0d369f;
+  right: 0;
+  padding: 8px 12px 8px 2px;
+}
+
+
 /* welcome */
+
+
 
 .welcome{
 }
